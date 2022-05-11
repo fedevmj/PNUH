@@ -141,7 +141,8 @@ $(document).ready(function () {
     // 닫기 버튼을 숨긴다.
     setTimeout(function () {
       site_search_bt.hide();
-      // 텍스트 필드 내용을 제어한다.
+      // 텍스트 필드 내용을 제어 (돋보기버튼 닫았다가 다시 열면 내용 삭제)
+      // val = value
       site_search_txt.val("");
     }, 200);
     // 텍스트 필드 넓이는 class 제거
